@@ -18,7 +18,7 @@
 
 /* Frame the supplied wordmark within the original banner artwork. */
 .nav .brand-logo{display:block;width:220px;flex-shrink:0;line-height:0}
-.brand-logo .logo-art{display:block;width:100%;aspect-ratio:3.8;margin:0;background-image:url('assets/crescata-surgical-banner.png');background-size:245% auto;background-position:52% 44%;background-repeat:no-repeat}
+.brand-logo .logo-art{display:block;width:100%;aspect-ratio:3.8;margin:0;background-image:url('crescata-surgical-banner.png');background-size:245% auto;background-position:52% 44%;background-repeat:no-repeat}
 @media(max-width:760px){.nav .brand-logo{width:190px}}
 
 /* A quiet, consistent footer with the original company wordmark. */
