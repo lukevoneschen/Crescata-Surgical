@@ -25,3 +25,8 @@
 .footer{background:#fff;border-top:1px solid #dae5ef;color:#60758d}
 .footer .brand-logo{display:block;width:190px;flex-shrink:0;line-height:0}
 .footer p{color:#60758d}
+
+/* Smooth outlined logo at every display density. */
+.brand-logo .logo-art{aspect-ratio:83/21;background-image:url('crescata-wordmark.svg');background-size:contain;background-position:center}
+.nav .brand-logo{aspect-ratio:83/21;background:url('crescata-wordmark.svg') center/contain no-repeat}
+.nav .brand-logo>svg{visibility:hidden}
