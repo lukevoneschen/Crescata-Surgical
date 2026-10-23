@@ -16,7 +16,7 @@ document.addEventListener('keydown', event => {
     menuButton.focus();
   }
 });
-window.matchMedia('(min-width: 761px)').addEventListener('change', closeMenu);
+window.matchMedia('(min-width: 901px)').addEventListener('change', closeMenu);
 
 const table = document.querySelector('.compare');
 if (table) {
