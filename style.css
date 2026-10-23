@@ -72,3 +72,5 @@
  .formbottom p{width:100%}
  .newsletter input[type=email]{width:100%;flex-basis:100%;min-width:0}
 }
+/* Keep the device image visible when the decorative mobile spacers are hidden. */
+@media(max-width:900px){.product .inner>.device[style]{display:block}}
